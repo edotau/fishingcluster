@@ -1,0 +1,2 @@
+http://ftp.ensembl.org/pub/release-103/gff3/gasterosteus_aculeatus/Gasterosteus_aculeatus.BROADS1.103.gff3.gz
+http://ftp.ensembl.org/pub/release-103/gff3/gasterosteus_aculeatus/Gasterosteus_aculeatus.BROADS1.103.abinitio.gff3.gz
