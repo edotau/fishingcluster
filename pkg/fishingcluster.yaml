@@ -1,0 +1,53 @@
+# You can use this file to create a conda environment for this pipeline:
+#   conda env create -f env.yaml
+
+name: fishingcluster
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - conda-forge/osx-64
+  - pkgs/r/noarch
+dependencies:
+  ## conda-forge packages
+  - python=3.7
+  - markdown=3
+  - pymdown-extensions=7.1
+  - pygments=2.6
+  - r-base=3.6
+  - r-optparse=1.6
+  - r-rcolorbrewer=1.1
+  - r-reshape2=1
+  - r-ggplot2=3
+  - r-tidyr=1.1.0
+  - r-scales=1.1.1
+  - r-pheatmap=1.0
+  - r-lattice=0.20
+  - r-upsetr=1.4.0
+  - r-xfun=0.15
+  - gawk=5.1.0
+  - pigz=2.3
+  ## bioconda packages
+  - nextflow=20.10.0
+  - htslib
+  - bwa=0.7.17
+  - bwa-mem2
+  - trim-galore=0.6.5
+  - samtools=1.12
+   -picard=2.23.1
+  - bamtools=2.5.1
+  - pysam=0.15.3
+  - bedtools=2.29.2
+  - ucsc-bedgraphtobigwig=357
+  - deeptools=3.4.3
+  - macs2=2.2.7.1
+  - homer=4.11
+  - ataqv=1.1.1
+  - subread=2.0.1
+  - preseq=2.0.3
+  - multiqc=1.9
+  - bioconductor-biocparallel=1.20.0
+  - bioconductor-deseq2=1.26.0
+  - bioconductor-vsn=3.54.0
+  ## pkgs/main
+  - pkgs/main=bash=5.0.018
