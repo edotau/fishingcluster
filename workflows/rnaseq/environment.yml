@@ -10,6 +10,7 @@ dependencies:
   - conda-forge::markdown=3.1.1
   - conda-forge::pymdown-extensions=6.0
   - conda-forge::pygments=2.5.2
+  - bioconda::nf-core=1.13.3
   - bioconda::fastqc
   - bioconda::multiqc=1.7
   - bioconda::star=2.7.8a
