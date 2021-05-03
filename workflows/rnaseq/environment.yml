@@ -1,0 +1,28 @@
+# You can use this file to create a conda environment for this pipeline:
+#   conda env create -f environment.yml
+name: gofish-rnaseq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - conda-forge::python=3.7
+  - conda-forge::markdown=3.1.1
+  - conda-forge::pymdown-extensions=6.0
+  - conda-forge::pygments=2.5.2
+  - bioconda::fastqc=0.11.8
+  - bioconda::multiqc=1.7
+  - bioconda::star=2.7.8a
+  - bioconda::qualimap
+  - bioconda::bioconductor-tximeta
+  - bioconda::bioconductor-deseq=1.30.1
+  - bioconda::bioconductor-summarizedexperiment=1.10.1
+  - bioconda::bioconductor-dupradar=1.10
+  - bedtools
+  - preseq=2.0.3
+  - rseqc=3.0.1
+  - salmon=1.4.0
+  - samtools=1.10
+  - stringtie=2.1.4
+  - subread=2.0.1
+  - trim-galore=0.6.6
